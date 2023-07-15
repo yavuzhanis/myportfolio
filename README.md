@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Create React App ile Başlarken
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Create React App ile oluşturulmuştur.
 
-## Available Scripts
+Kullanılabilir Komutlar
 
-In the project directory, you can run:
+Proje dizininde aşağıdaki komutları çalıştırabilirsiniz:
 
-### `npm start`
+npm start
+Uygulamayı geliştirme modunda çalıştırır.
+Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görüntüleyebilirsiniz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Yaptığınız değişikliklerde sayfa otomatik olarak yenilenecektir.
+Ayrıca, herhangi bir hata mesajını konsolda görebilirsiniz.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm test
+Etkileşimli izleme modunda test çalıştırıcısını başlatır.
+Daha fazla bilgi için test çalıştırma bölümüne bakabilirsiniz.
 
-### `npm test`
+npm run build
+Uygulamayı üretim için build klasörüne derler.
+Bu, React'i üretim modunda düzgün bir şekilde birleştirir ve derleme işlemini en iyi performans için optimize eder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Derleme işlemi minify edilir ve dosya adlarında karmalar içerir.
+Uygulamanız dağıtım için hazır!
 
-### `npm run build`
+Daha fazla bilgi için dağıtım bölümüne bakabilirsiniz.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run eject
+Not: Bu bir yönlü bir işlemdir. eject işleminden sonra geri dönemezsiniz!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Eğer derleme aracı ve yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman eject işlemi yapabilirsiniz. Bu komut, projenizden tek bir derleme bağımlılığını kaldırır.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bunun yerine, tüm yapılandırma dosyalarını ve bağımlılıkları (webpack, Babel, ESLint vb.) projenize kopyalar, böylece tam kontrol sahibi olursunuz. eject haricindeki tüm komutlar hala çalışır, ancak kopyalanan betiklere işaret ederler, böylece istediğiniz şekilde özelleştirebilirsiniz. Bu noktadan sonra kendi başınızasınız.
 
-### `npm run eject`
+eject kullanmak zorunda değilsiniz. Önceden belirlenmiş özellik seti, küçük ve orta ölçekli dağıtımlar için uygundur ve kullanıma hazır olduğunuzda özelleştirmeniz için bir zorunluluk hissetmemelisiniz.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Daha Fazlasını Öğrenin
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Daha fazla bilgi için Create React App belgelerini inceleyebilirsiniz.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React'i öğrenmek için React belgelerini kontrol edin.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Kod Bölme (Code Splitting)
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## Learn More
+Paket Boyutunu Analiz Etme (Analyzing the Bundle Size)
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+İlerleyen Web Uygulaması Yapma (Making a Progressive Web App)
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Gelişmiş Yapılandırma (Advanced Configuration)
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Code Splitting
+Dağıtım (Deployment)
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm run build Başarısız Olursa
+Bu bölüm burada yer almıyor: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
